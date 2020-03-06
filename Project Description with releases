@@ -1,0 +1,37 @@
+The software will create three files in “.csv” format for patient details, visitor details and room status. Patient details and visitor details will take in all the inputs as mentioned in the client requirement section. Depending on the number of patients being admitted to hospital the room status will be updated in a different file.
+ 
+At first symptoms of the patient will be taken as input to patient detail file. If the symptoms does not belong to physical injury or to any chronic disease the patient will not be allocated any room in any wards. Then the other details mentioned in patient details will be taken as input.
+ 
+If the patient has symptoms of physical injury and requires admission he will be admitted to general ward if room is available. Other patient details can be taken as input after room is allocated.
+If the patient has symptoms of chronic disease and requires admission he will be admitted to special ward if room is available. Other patient details can be taken as input after room is 
+ 
+A set of symptoms corresponding to physical injury and chronic diseases will be used to evaluate patients’ symptoms.  
+Each time a patient needs to be admitted the software will read the room status file and will allow admission of the patient based on the required room availability in a ward.
+ 
+Input to visitor details will be taken when a visitor, visits a patient admitted in hospital.
+ 
+The software will be able to display a patient’s status on the console window by searching the patients name and phone number in the patient detail file.
+ 
+The software will be able to display room status that is availability of the rooms at any point of time.
+ 
+The software will also be able to display number of patients admitted or released at any point of time in a day.
+ 
+The software will be able to run on one computer only, preferably with “Windows operating system”.
+ 
+First Release:
+• Adding patient information.
+• Display prescription, precautions and diet advise for the patient.
+• Display information on Patient admitted.
+• Total number of visitors for the patient.
+ 
+Second Release:
+• Displaying billing information.
+• Providing and maintaining all kinds of test for a patient.
+• Displaying room number of admitted patients.
+• Display previous history of patient if the patient is returning patient.
+ 
+ 
+We will have total of four files, one file for storing the patient information and another file for storing visitor’s information, one for storing information related to prescription, precaution and diet advise and room information in another file. Since all the information are stored in file they are dynamic in nature that is information is retained even if we close and reopen the program.
+ 
+Our software prototype is designed to work only in local server of hospital, so it can only be used by one computer at a time.
+ 
